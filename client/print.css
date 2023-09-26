@@ -1,0 +1,14 @@
+@media print {
+    header, nav, footer {
+        display: none;
+    }
+    body {
+        margin: 20mm;
+        font-size: 12pt;
+    }
+    .page-break {
+        page-break-before: always;
+    }
+}
+
+
